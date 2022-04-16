@@ -39,12 +39,12 @@ private:
     unsigned short int port_limit;
     map<string, vector<pair<unsigned long long, unsigned short int>>> connections;
 public:
-    // Задать временное окно для анализа (см. описание логики выше)
+    // Задать временное окно для анализа
     void setTimeThreshold(unsigned short int time_threshold) {
         this->time_threshold = time_threshold;
     }
 
-    // Задать минимальное количество портов для срабатывания (см. описание логики выше)
+    // Задать минимальное количество портов для срабатывания
     void setPortLimit(unsigned short int port_limit) {
         this->port_limit = port_limit;
     }
