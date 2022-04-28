@@ -83,5 +83,5 @@ int main () {
     id.handleConnection({"load.com", 80, 100502});
     id.handleConnection({"load.com", 80, 100503});
     id.handleConnection({"load.com", 80, 100500});
-    cout << boolalpha << "Checking if load.com is intruder: " << id.isIntruder("cum.com") << endl;
+    cout << boolalpha << "Checking if load.com is intruder: " << id.isIntruder("load.com") << endl;
 }
